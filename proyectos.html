@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#08080B">
+  <meta name="description" content="SOFTmercio: páginas web, apps móviles, sistemas a medida y automatización para negocios que buscan crecer.">
+  <meta name="author" content="César Fernando Paisano León">
+  <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+  <title>SOFTmercio | Proyectos</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Instrument+Sans:wght@400;500;600;700&display=swap">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+  <!-- ===== Encabezado con menú principal (4 botones) ===== -->
+  <div id="encabezado">
+    <div class="contenedor">
+      <a href="index.html" class="logo"><span class="logo-icono"><b>S</b></span><span>SOFT<span class="marca">mercio</span></span></a>
+      <div id="menu">
+        <div class="menu-pastilla">
+          <a href="index.html" class="boton-menu">Inicio</a>
+          <a href="servicios.html" class="boton-menu">Servicios</a>
+          <a href="proyectos.html" class="boton-menu activo">Proyectos</a>
+        </div>
+        <a href="https://www.instagram.com/soft.mercio/" target="_blank" class="boton-menu externo">Instagram</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== Banner ===== -->
+  <div class="banner">
+    <a href="#proyectos">
+      <img src="img/banner-proyectos.jpg" alt="Fondo con degradado lavanda y azul">
+    </a>
+    <div class="banner-texto">
+      <h1>Nuestros<br>proyectos</h1>
+      <p class="ruta"><a href="index.html">Inicio</a> / Proyectos</p>
+    </div>
+  </div>
+
+  <!-- ===== Introducción ===== -->
+  <div class="intro centrado">
+    <div class="contenedor">
+      <h2>Resultados reales</h2>
+      <p>Cada proyecto nace de una necesidad concreta: comer mejor, atraer pacientes a un consultorio o medir el scrap de una planta.</p>
+    </div>
+  </div>
+
+  <!-- ===== Tarjetas de proyectos ===== -->
+  <div id="proyectos">
+    <div class="contenedor rejilla-proyectos">
+      <div class="proyecto" id="bocado">
+        <a href="https://bocado.site.je" target="_blank"><img src="img/proyecto-bocado.jpg" alt="App Bocado en dos teléfonos"></a>
+        <div class="proyecto-info">
+          <span class="tipo">App móvil + IA</span>
+          <h3>Bocado</h3>
+          <p>Escanea, registra, entrena. Analiza tu comida con una foto y sugiere recetas con inteligencia artificial. Ya va en la versión 1.1.0.</p>
+        </div>
+      </div>
+      <div class="proyecto">
+        <a href="servicios.html#paginas"><img src="img/proyecto-nutricion.jpg" alt="Página web de un consultorio de nutrición"></a>
+        <div class="proyecto-info">
+          <span class="tipo">Página web</span>
+          <h3>Nutre Mente &amp; Cuerpo</h3>
+          <p>Sitio para un consultorio de nutrición en Puebla, con sus servicios, información y contacto directo.</p>
+        </div>
+      </div>
+      <div class="proyecto" id="scrap">
+        <a href="servicios.html#sistemas"><img src="img/proyecto-scrap.jpg" alt="Tablero con gráficas de scrap"></a>
+        <div class="proyecto-info">
+          <span class="tipo">Sistema a medida</span>
+          <h3>SIC SCRAP</h3>
+          <p>Tablero de trazabilidad de scrap para una planta de inyección de plástico automotriz.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== Tabla de tecnologías ===== -->
+  <div class="seccion-tabla centrado">
+    <div class="contenedor">
+      <h2>Tecnologías utilizadas</h2>
+      <p class="subtitulo">Resumen de las herramientas con las que se construyó cada proyecto.</p>
+      <table class="tabla">
+        <thead>
+          <tr>
+            <th>Proyecto</th>
+            <th>Tipo</th>
+            <th class="destacado">Tecnologías</th>
+            <th>Usa IA</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>Bocado</th>
+            <td>App móvil</td>
+            <td>React Native (Expo), FastAPI, Supabase</td>
+            <td class="si">✔</td>
+          </tr>
+          <tr>
+            <th>Nutre Mente &amp; Cuerpo</th>
+            <td>Página web</td>
+            <td>HTML, CSS, JavaScript</td>
+            <td class="no">—</td>
+          </tr>
+          <tr>
+            <th>SIC SCRAP</th>
+            <td>Sistema a medida</td>
+            <td>Tecnologías web</td>
+            <td class="no">—</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- ===== Proceso de trabajo ===== -->
+  <div id="proceso">
+    <div class="contenedor">
+      <div class="centrado">
+        <h2 class="titulo-grande">Idea → Código<br>→ Realidad</h2>
+      </div>
+      <div class="pasos">
+        <div class="paso">
+          <strong>01</strong>
+          <h3>Idea</h3>
+          <p>Platicamos para entender tu negocio.</p>
+        </div>
+        <div class="paso">
+          <strong>02</strong>
+          <h3>Diseño</h3>
+          <p>Te mostramos una propuesta visual.</p>
+        </div>
+        <div class="paso">
+          <strong>03</strong>
+          <h3>Código</h3>
+          <p>Lo construimos y lo probamos.</p>
+        </div>
+        <div class="paso">
+          <strong>04</strong>
+          <h3>Realidad</h3>
+          <p>Lo publicamos y damos soporte.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== Contacto ===== -->
+  <div id="contacto">
+    <div class="contenedor">
+      <div>
+        <h2>¿Tienes un proyecto en mente?</h2>
+        <p>Síguenos y mándanos mensaje en Instagram: @soft.mercio</p>
+      </div>
+      <a href="https://www.instagram.com/soft.mercio/" target="_blank" class="boton">Ir a Instagram</a>
+    </div>
+  </div>
+
+  <!-- ===== Pie de página: enlaces, contacto, nombre y matrícula ===== -->
+  <div id="pie">
+    <div class="contenedor pie-columnas">
+      <div>
+        <a href="index.html" class="pie-logo"><span class="logo-icono"><b>S</b></span>SOFTmercio</a>
+        <p>Desarrollo de código y diseño de sistemas para negocios que buscan el crecimiento.</p>
+      </div>
+      <div>
+        <h3>Páginas</h3>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="servicios.html">Servicios</a></li>
+          <li><a href="proyectos.html">Proyectos</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Servicios</h3>
+        <ul>
+          <li><a href="servicios.html#paginas">Páginas web</a></li>
+          <li><a href="servicios.html#apps">Apps móviles</a></li>
+          <li><a href="servicios.html#sistemas">Sistemas a medida</a></li>
+          <li><a href="servicios.html#automatizacion">Automatización</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Contacto</h3>
+        <ul>
+          <li><a href="https://www.instagram.com/soft.mercio/" target="_blank">@soft.mercio en Instagram</a></li>
+          <li><a href="https://github.com/cesar2006fg" target="_blank">cesar2006fg en GitHub</a></li>
+          <li><a href="proyectos.html#bocado">Bocado, nuestra app</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="pie-firma">
+      <h2>César Fernando Paisano León</h2>
+      <p>Matrícula ID24147</p>
+      <p class="pie-materia">Proyecto final de Arquitectura y Diseño para la Web II</p>
+    </div>
+  </div>
+
+  <script src="js/animaciones.js"></script>
+</body>
+</html>
